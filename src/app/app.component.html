@@ -1,0 +1,23 @@
+<ng-container *ngIf="title1; else asd"
+              [hidden]="title1"
+>
+</ng-container>
+<ng-template #asd>
+
+</ng-template>
+
+<ng-content select="some-component">
+
+</ng-content>
+
+<div *ngTemplateOutlet="">
+
+</div>
+
+<div *ngComponentOutlet="">
+
+</div>
+
+<div *ngFor="let a of [1,2,3]; let i = index; trackBy=''">
+
+</div>

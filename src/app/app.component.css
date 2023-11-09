@@ -1,0 +1,11 @@
+:host {
+  display: flex;
+}
+
+:host-context(some-component) {
+  display: flex;
+}
+
+::ng-deep app-root {
+  display: flex;
+}
